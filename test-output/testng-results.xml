@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="26" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T11:43:10 CET" name="petClinic Regression Suite" finished-at="2022-02-22T11:43:34 CET" duration-ms="23353">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T11:43:10 CET" name="Regression Test" finished-at="2022-02-22T11:43:34 CET" duration-ms="23353">
+      <class name="tests.EditOwnerTest">
+        <test-method signature="userCanEditOwner()[pri:0, instance:tests.EditOwnerTest@38c6f217]" started-at="2022-02-22T11:43:17 CET" name="userCanEditOwner" finished-at="2022-02-22T11:43:19 CET" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanEditOwner -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.EditOwnerTest@38c6f217]" started-at="2022-02-22T11:43:19 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:19 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanEditOwner status=SUCCESS method=EditOwnerTest.userCanEditOwner()[pri:0, instance:tests.EditOwnerTest@38c6f217] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.EditOwnerTest -->
+      <class name="tests.AddNewPetTest">
+        <test-method signature="invalidAddUniquePetTest_NameBirthDateEmpty()[pri:0, instance:tests.AddNewPetTest@478190fc]" started-at="2022-02-22T11:43:19 CET" name="invalidAddUniquePetTest_NameBirthDateEmpty" finished-at="2022-02-22T11:43:21 CET" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidAddUniquePetTest_NameBirthDateEmpty -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddNewPetTest@478190fc]" started-at="2022-02-22T11:43:21 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:21 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidAddUniquePetTest_NameBirthDateEmpty status=SUCCESS method=AddNewPetTest.invalidAddUniquePetTest_NameBirthDateEmpty()[pri:0, instance:tests.AddNewPetTest@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="invalidAddUniquePetTest_ValidNameInvalidDateFormat()[pri:0, instance:tests.AddNewPetTest@478190fc]" started-at="2022-02-22T11:43:21 CET" name="invalidAddUniquePetTest_ValidNameInvalidDateFormat" finished-at="2022-02-22T11:43:23 CET" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidAddUniquePetTest_ValidNameInvalidDateFormat -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddNewPetTest@478190fc]" started-at="2022-02-22T11:43:23 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:23 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidAddUniquePetTest_ValidNameInvalidDateFormat status=SUCCESS method=AddNewPetTest.invalidAddUniquePetTest_ValidNameInvalidDateFormat()[pri:0, instance:tests.AddNewPetTest@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="validAddUniquePetTest_ValidNameValidBirthD()[pri:0, instance:tests.AddNewPetTest@478190fc]" started-at="2022-02-22T11:43:23 CET" name="validAddUniquePetTest_ValidNameValidBirthD" finished-at="2022-02-22T11:43:25 CET" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddUniquePetTest_ValidNameValidBirthD -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddNewPetTest@478190fc]" started-at="2022-02-22T11:43:25 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:25 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validAddUniquePetTest_ValidNameValidBirthD status=SUCCESS method=AddNewPetTest.validAddUniquePetTest_ValidNameValidBirthD()[pri:0, instance:tests.AddNewPetTest@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.AddNewPetTest -->
+      <class name="tests.NewVisitTest">
+        <test-method signature="cannotAddVisitDFNotCorrect()[pri:0, instance:tests.NewVisitTest@3a93b025]" started-at="2022-02-22T11:43:27 CET" name="cannotAddVisitDFNotCorrect" finished-at="2022-02-22T11:43:29 CET" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotAddVisitDFNotCorrect -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.NewVisitTest@3a93b025]" started-at="2022-02-22T11:43:29 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:29 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cannotAddVisitDFNotCorrect status=SUCCESS method=NewVisitTest.cannotAddVisitDFNotCorrect()[pri:0, instance:tests.NewVisitTest@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="cannotAddVisitRequiredFieldBlank()[pri:0, instance:tests.NewVisitTest@3a93b025]" started-at="2022-02-22T11:43:29 CET" name="cannotAddVisitRequiredFieldBlank" finished-at="2022-02-22T11:43:31 CET" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotAddVisitRequiredFieldBlank -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.NewVisitTest@3a93b025]" started-at="2022-02-22T11:43:31 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:31 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cannotAddVisitRequiredFieldBlank status=SUCCESS method=NewVisitTest.cannotAddVisitRequiredFieldBlank()[pri:0, instance:tests.NewVisitTest@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userCanAddVisit()[pri:0, instance:tests.NewVisitTest@3a93b025]" started-at="2022-02-22T11:43:31 CET" name="userCanAddVisit" finished-at="2022-02-22T11:43:34 CET" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddVisit -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.NewVisitTest@3a93b025]" started-at="2022-02-22T11:43:34 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:34 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanAddVisit status=SUCCESS method=NewVisitTest.userCanAddVisit()[pri:0, instance:tests.NewVisitTest@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.NewVisitTest -->
+      <class name="tests.SearchForOwnerTest">
+        <test-method signature="testNonUniqueOwner()[pri:0, instance:tests.SearchForOwnerTest@399f45b1]" started-at="2022-02-22T11:43:14 CET" name="testNonUniqueOwner" finished-at="2022-02-22T11:43:16 CET" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonUniqueOwner -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForOwnerTest@399f45b1]" started-at="2022-02-22T11:43:16 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:16 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNonUniqueOwner status=SUCCESS method=SearchForOwnerTest.testNonUniqueOwner()[pri:0, instance:tests.SearchForOwnerTest@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="testUniqueOwner()[pri:0, instance:tests.SearchForOwnerTest@399f45b1]" started-at="2022-02-22T11:43:16 CET" name="testUniqueOwner" finished-at="2022-02-22T11:43:17 CET" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniqueOwner -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForOwnerTest@399f45b1]" started-at="2022-02-22T11:43:17 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:17 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniqueOwner status=SUCCESS method=SearchForOwnerTest.testUniqueOwner()[pri:0, instance:tests.SearchForOwnerTest@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userCannotSearchForNotPresentOwner()[pri:0, instance:tests.SearchForOwnerTest@399f45b1]" started-at="2022-02-22T11:43:17 CET" name="userCannotSearchForNotPresentOwner" finished-at="2022-02-22T11:43:17 CET" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotSearchForNotPresentOwner -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForOwnerTest@399f45b1]" started-at="2022-02-22T11:43:17 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:17 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotSearchForNotPresentOwner status=SUCCESS method=SearchForOwnerTest.userCannotSearchForNotPresentOwner()[pri:0, instance:tests.SearchForOwnerTest@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.SearchForOwnerTest -->
+      <class name="tests.EditPetTest">
+        <test-method signature="userCanEditPet()[pri:0, instance:tests.EditPetTest@79e2c065]" started-at="2022-02-22T11:43:25 CET" name="userCanEditPet" finished-at="2022-02-22T11:43:27 CET" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanEditPet -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.EditPetTest@79e2c065]" started-at="2022-02-22T11:43:27 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:27 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanEditPet status=SUCCESS method=EditPetTest.userCanEditPet()[pri:0, instance:tests.EditPetTest@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.EditPetTest -->
+      <class name="tests.AddOwnersTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:08 CET" name="startDriver" finished-at="2022-02-22T11:43:10 CET" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCannotAddOwnerInCaseTelephoneFieldContainsMoreThan10Intigers()[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:10 CET" name="userCannotAddOwnerInCaseTelephoneFieldContainsMoreThan10Intigers" finished-at="2022-02-22T11:43:11 CET" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotAddOwnerInCaseTelephoneFieldContainsMoreThan10Intigers -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:11 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:11 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotAddOwnerInCaseTelephoneFieldContainsMoreThan10Intigers status=SUCCESS method=AddOwnersTest.userCannotAddOwnerInCaseTelephoneFieldContainsMoreThan10Intigers()[pri:0, instance:tests.AddOwnersTest@dd8ba08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userCannotAddOwnerInCaseTelephoneFieldContainsStrings()[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:11 CET" name="userCannotAddOwnerInCaseTelephoneFieldContainsStrings" finished-at="2022-02-22T11:43:12 CET" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotAddOwnerInCaseTelephoneFieldContainsStrings -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:12 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:12 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotAddOwnerInCaseTelephoneFieldContainsStrings status=SUCCESS method=AddOwnersTest.userCannotAddOwnerInCaseTelephoneFieldContainsStrings()[pri:0, instance:tests.AddOwnersTest@dd8ba08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userCannotAddOwnerInCaseThatRequiredFieldsAreBalnk()[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:12 CET" name="userCannotAddOwnerInCaseThatRequiredFieldsAreBalnk" finished-at="2022-02-22T11:43:12 CET" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotAddOwnerInCaseThatRequiredFieldsAreBalnk -->
+        <test-method signature="validateThatErrorMesssageDisplayInFirstNameButNotOnOtherFieldsUsingThrowsExceptionAndReadingExceptionName()[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:12 CET" name="validateThatErrorMesssageDisplayInFirstNameButNotOnOtherFieldsUsingThrowsExceptionAndReadingExceptionName" finished-at="2022-02-22T11:43:13 CET" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThatErrorMesssageDisplayInFirstNameButNotOnOtherFieldsUsingThrowsExceptionAndReadingExceptionName -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:12 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:12 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotAddOwnerInCaseThatRequiredFieldsAreBalnk status=SUCCESS method=AddOwnersTest.userCannotAddOwnerInCaseThatRequiredFieldsAreBalnk()[pri:0, instance:tests.AddOwnersTest@dd8ba08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:13 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:13 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateThatErrorMesssageDisplayInFirstNameButNotOnOtherFieldsUsingThrowsExceptionAndReadingExceptionName status=SUCCESS method=AddOwnersTest.validateThatErrorMesssageDisplayInFirstNameButNotOnOtherFieldsUsingThrowsExceptionAndReadingExceptionName()[pri:0, instance:tests.AddOwnersTest@dd8ba08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanAddOwnerSuccessfully()[pri:1, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:13 CET" name="UserCanAddOwnerSuccessfully" finished-at="2022-02-22T11:43:14 CET" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddOwnerSuccessfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:14 CET" name="screenshotOnFailure" finished-at="2022-02-22T11:43:14 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddOwnerSuccessfully status=SUCCESS method=AddOwnersTest.UserCanAddOwnerSuccessfully()[pri:1, instance:tests.AddOwnersTest@dd8ba08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AddOwnersTest@dd8ba08]" started-at="2022-02-22T11:43:34 CET" name="stopDriver" finished-at="2022-02-22T11:43:35 CET" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AddOwnersTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- petClinic Regression Suite -->
+</testng-results>

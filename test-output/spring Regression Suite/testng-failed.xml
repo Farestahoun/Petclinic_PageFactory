@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [spring Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.EditOwnerTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanEditOwner"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.EditOwnerTest -->
+      <class name="tests.SearchForOwnerTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="testNonUniqueOwner"/>
+          <include name="stopDriver"/>
+          <include name="testUniqueOwner"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCannotSearchForNotPresentOwner"/>
+        </methods>
+      </class> <!-- tests.SearchForOwnerTest -->
+      <class name="tests.AddOwnersTest">
+        <methods>
+          <include name="userCannotAddOwnerInCaseTelephoneFieldContainsMoreThan10Intigers"/>
+          <include name="startDriver"/>
+          <include name="userCannotAddOwnerInCaseTelephoneFieldContainsStrings"/>
+          <include name="UserCanAddOwnerSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="validateThatErrorMesssageDisplayInFirstNameButNotOnOtherFieldsUsingThrowsExceptionAndReadingExceptionName"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCannotAddOwnerInCaseThatRequiredFieldsAreBalnk"/>
+        </methods>
+      </class> <!-- tests.AddOwnersTest -->
+      <class name="tests.NewVisitTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="cannotAddVisitDFNotCorrect"/>
+          <include name="cannotAddVisitRequiredFieldBlank"/>
+          <include name="userCanAddVisit"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.NewVisitTest -->
+      <class name="tests.EditPetTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanEditPet"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.EditPetTest -->
+      <class name="tests.AddNewPetTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="validAddUniquePetTest_ValidNameValidBirthD"/>
+          <include name="stopDriver"/>
+          <include name="invalidAddUniquePetTest_NameBirthDateEmpty"/>
+          <include name="screenshotOnFailure"/>
+          <include name="invalidAddUniquePetTest_ValidNameInvalidDateFormat"/>
+        </methods>
+      </class> <!-- tests.AddNewPetTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [spring Regression Suite] -->
